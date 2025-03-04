@@ -21,51 +21,52 @@
    * colors
    */
 
-/* gradient */
---bg-gradient-onyx: linear-gradient(
-  to bottom right, 
-  hsl(0, 0%, 90%) 3%,  /* Changed teal to light grey */
-  hsl(0, 0%, 85%) 97%  /* Changed teal to light grey */
-);
---bg-gradient-jet: linear-gradient(
-  to bottom right, 
-  hsla(0, 0%, 85%, 0.251) 0%,  /* Changed teal to light grey */
-  hsla(0, 0%, 75%, 0) 100%  /* Changed teal to light grey */
-), hsl(0, 0%, 20%);  /* Changed teal to darker grey */
---bg-gradient-yellow-1: linear-gradient(
-  to bottom right, 
-  hsl(0, 0%, 95%) 0%,  /* Changed teal to near-white */
-  hsla(0, 0%, 90%, 0) 50%  /* Changed teal to light grey */
-);
---bg-gradient-yellow-2: linear-gradient(
-  135deg, 
-  hsla(0, 0%, 95%, 0.251) 0%,  /* Changed teal to near-white */
-  hsla(0, 0%, 90%, 0) 59.86%  /* Changed teal to light grey */
-), hsl(0, 0%, 20%);  /* Changed teal to darker grey */
---border-gradient-onyx: linear-gradient(
-  to bottom right, 
-  hsl(0, 0%, 87%) 0%,  /* Changed teal to light grey */
-  hsla(0, 0%, 87%, 0) 50%  /* Changed teal to light grey */
-);
---text-gradient-yellow: linear-gradient(
-  to right, 
-  hsl(0, 0%, 95%),  /* Changed teal to near-white */
-  hsl(0, 0%, 85%)  /* Changed teal to light grey */
-);
+  /* gradient */
+  --bg-gradient-onyx: linear-gradient(
+    to bottom right, 
+    hsl(190, 90%, 30%) 3%, 
+    hsl(190, 80%, 25%) 97%
+  );
+  --bg-gradient-jet: linear-gradient(
+    to bottom right, 
+    hsla(190, 90%, 25%, 0.251) 0%, 
+    hsla(190, 80%, 20%, 0) 100%
+  ), hsl(220, 8%, 10%);
+  --bg-gradient-yellow-1: linear-gradient(
+    to bottom right, 
+    hsl(190, 90%, 40%) 0%, 
+    hsla(190, 80%, 35%, 0) 50%
+  );
+  --bg-gradient-yellow-2: linear-gradient(
+    135deg, 
+    hsla(190, 90%, 40%, 0.251) 0%, 
+    hsla(190, 80%, 35%, 0) 59.86%
+  ), hsl(220, 8%, 10%);
+  --border-gradient-onyx: linear-gradient(
+    to bottom right, 
+    hsl(190, 90%, 32%) 0%, 
+    hsla(190, 90%, 32%, 0) 50%
+  );
+  --text-gradient-yellow: linear-gradient(
+    to right, 
+    hsl(190, 90%, 45%), 
+    hsl(190, 80%, 40%)
+  );
 
-/* solid */
---jet: hsl(0, 0%, 20%);  /* Changed teal to dark grey */
---onyx: hsl(0, 0%, 10%);  /* Changed teal to dark grey */
---eerie-black-1: hsl(0, 0%, 7%);  /* Changed teal to very dark grey */
---eerie-black-2: hsl(0, 0%, 5%);  /* Changed teal to very dark grey */
---smoky-black: hsl(0, 0%, 3%);  /* Changed teal to near-black */
---white-1: hsl(0, 0%, 98%);  /* Changed to a very light grey (near white) */
---white-2: hsl(0, 0%, 90%);  /* Changed to light grey */
---orange-yellow-crayola: hsl(0, 0%, 95%);  /* Changed teal to near-white */
---vegas-gold: hsl(0, 0%, 85%);  /* Changed to light grey */
---light-gray: hsl(0, 0%, 70%);  /* Changed to a medium light grey */
---light-gray-70: hsla(0, 0%, 70%, 0.7);  /* Changed to a medium light grey with transparency */
---bittersweet-shimmer: hsl(0, 0%, 80%);  /* Changed to a medium light grey */
+  /* solid */
+
+  --jet: hsl(220, 10%, 22%);
+  --onyx: hsl(220, 10%, 15%);
+  --eerie-black-1: hsl(220, 8%, 12%);
+  --eerie-black-2: hsl(220, 8%, 11%);
+  --smoky-black: hsl(220, 8%, 7%);
+  --white-1: hsl(220, 20%, 95%);
+  --white-2: hsl(220, 15%, 90%);
+  --orange-yellow-crayola: hsl(190, 90%, 45%);
+  --vegas-gold: hsl(190, 70%, 35%);
+  --light-gray: hsl(220, 10%, 70%);
+  --light-gray-70: hsla(220, 10%, 70%, 0.7);
+  --bittersweet-shimmer: hsl(350, 50%, 40%);
 
   /**
    * typography

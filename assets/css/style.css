@@ -66,7 +66,7 @@
   --vegas-gold: hsl(190, 70%, 35%);
   --light-gray: hsl(220, 10%, 70%);
   --light-gray-70: hsla(220, 10%, 70%, 0.7);
-  --bittersweet-shimmer: hsl(350, 50%, 40%);
+  --bittersweet-shimmer:     hsl(190, 80%, 40%);
 
   /**
    * typography
@@ -1339,7 +1339,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 120px; height: 150px;object-fit: cover; border-radius: 15px;}
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1883,13 +1883,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .timeline-text {
   list-style-type: dotted; /* Sets dotted bullets only for this list */
-  padding-left: 20px; /* Optional: Adds some space on the left */
+  padding-left: 0px; /* Optional: Adds some space on the left */
 }
 
 
 .timeline-text {
   list-style-type: none; /* Removes the default bullet points for this list */
-  padding-left: 10px; /* Optional: Adds some space on the left for the dots */
+  padding-left: 0px; /* Optional: Adds some space on the left for the dots */
 }
 
 .timeline-text li {
